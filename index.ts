@@ -83,7 +83,7 @@ function move(gameState: GameState): MoveResponse {
     isMoveSafe.up = false;
   }
 
-  if(myHead.y === boardWidth -1){
+  if(myHead.x === boardWidth -1){
     isMoveSafe.right = false;
   }
 
